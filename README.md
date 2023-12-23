@@ -1,7 +1,7 @@
 # ProgramRestaurant
 
 Kelompok 13
-Anggota : 1.  Nama : Hilman Maulana <\br>
+Anggota : 1.  Nama : Hilman Maulana <br>
               NIM  : 1237050020
               Kelas : 1B Informatika
           2.  Nama  : Mochamad Fahmi Rizieq
