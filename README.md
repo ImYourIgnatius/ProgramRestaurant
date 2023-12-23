@@ -1,15 +1,15 @@
 # ProgramRestaurant
-
-Kelompok 13
+<br>
+Kelompok 13 <br>
 Anggota : 1.  Nama : Hilman Maulana <br>
-              NIM  : 1237050020
-              Kelas : 1B Informatika
-          2.  Nama  : Mochamad Fahmi Rizieq
-              NIM   : 1237050074
-              Kelas : 1B Informatika
-          3.  Nama  : Nabilah Nuril Zahra M. Karim
-              NIM   : 1237050120
-              Kelas : 1B Informatika
+              NIM  : 1237050020<br>
+              Kelas : 1B Informatika<br>
+          2.  Nama  : Mochamad Fahmi Rizieq<br>
+              NIM   : 1237050074<br>
+              Kelas : 1B Informatika<br>
+          3.  Nama  : Nabilah Nuril Zahra M. Karim<br>
+              NIM   : 1237050120<br>
+              Kelas : 1B Informatika<br>
           
 Program yang tercakup dalam implementasi aplikasi toko menggunakan bahasa pemrograman Java menunjukkan fokus utamanya pada kelas `TokoController`. Kelas ini memiliki peran krusial dalam mengelola logika utama aplikasi dan berinteraksi dengan pengguna. Ketika aplikasi pertama kali dijalankan, langkah inisiasi data dilakukan melalui metode `setUp()`. Metode ini bertujuan untuk menginisialisasi data pembeli dan penjual, yang selanjutnya disimpan dalam struktur data yang efisien, yaitu `HashMap`. Pemilihan struktur data ini memungkinkan pengelolaan data yang cepat dan efisien, dengan kemampuan pencarian data berbasis kunci.
 
