@@ -12,6 +12,8 @@ Anggota : 1.  Nama : Hilman Maulana <br>
               Kelas : 1B Informatika<br>
 <br><br>
 
+Link Video : On Progress
+
 Penjelasan Singkat Program<br>
 Program yang tercakup dalam implementasi aplikasi toko menggunakan bahasa pemrograman Java menunjukkan fokus utamanya pada kelas `TokoController`. Kelas ini memiliki peran krusial dalam mengelola logika utama aplikasi dan berinteraksi dengan pengguna. Ketika aplikasi pertama kali dijalankan, langkah inisiasi data dilakukan melalui metode `setUp()`. Metode ini bertujuan untuk menginisialisasi data pembeli dan penjual, yang selanjutnya disimpan dalam struktur data yang efisien, yaitu `HashMap`. Pemilihan struktur data ini memungkinkan pengelolaan data yang cepat dan efisien, dengan kemampuan pencarian data berbasis kunci. 
 
@@ -27,5 +29,48 @@ Workspace ini terdiri dari 2 files, yang dimana yaitu :
 
 - `src`: Berisi semua soruce code dan berisi lagi files controller, dan juga model
 
+Berikut Struktur Data Singkat Program Restaurant
+```mermaid
+erDiagram
+PELANGGAN {
+    int id_pelanggan
+    string nama_pelanggan
 
-Link Video : On Procces
+}
+
+ADMIN {
+    int id_admin
+    string nama_admin
+    string username
+    string password
+}
+
+MENU {
+    int id_menu
+    string nama_menu
+    int harga
+}
+
+ORDER {
+    int id_order
+    int id_pelanggan
+    date tanggal_pemesanan
+    int total_harga
+}
+
+ORDER_ITEM {
+    int id_order_item
+    int id_order
+    int id_menu
+    int jumlah_pesan
+    int subtotal
+}
+
+PELANGGAN }|..|{ ORDER : "melakukan"
+MENU }|..o{ ORDER_ITEM : "terdiri dari"
+ADMIN ||--o{ MENU : "menambahkan dan mengakses"
+PELANGGAN }|..|{ ORDER_ITEM : "mengakses"
+PELANGGAN }|..|{ ORDER_ITEM : "melakukan"
+
+  
+```
