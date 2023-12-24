@@ -13,7 +13,7 @@ Anggota : 1.  Nama : Hilman Maulana <br>
 <br><br>
 
 Link Video : https://www.youtube.com/playlist?list=PLY9_a3hdlnA1jWKfBArqAz3kffak4mqnO
-
+ 
 <br><br>
 Penjelasan Singkat Program<br>
 Program yang tercakup dalam implementasi aplikasi toko menggunakan bahasa pemrograman Java menunjukkan fokus utamanya pada kelas `TokoController`. Kelas ini memiliki peran krusial dalam mengelola logika utama aplikasi dan berinteraksi dengan pengguna. Ketika aplikasi pertama kali dijalankan, langkah inisiasi data dilakukan melalui metode `setUp()`. Metode ini bertujuan untuk menginisialisasi data pembeli dan penjual, yang selanjutnya disimpan dalam struktur data yang efisien, yaitu `HashMap`. Pemilihan struktur data ini memungkinkan pengelolaan data yang cepat dan efisien, dengan kemampuan pencarian data berbasis kunci. 
